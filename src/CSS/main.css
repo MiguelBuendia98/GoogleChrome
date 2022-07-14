@@ -119,11 +119,20 @@ header
     padding: 5px 8px 0px 14px;
 }
 
+.search-container:hover
+{
+    box-shadow: 1px 1px 5px #ced0d5
+}
+
 .icon-search
 {
     padding-right: 13px;
     width: 20px;
     height: 20px;
+    background-image: url("https://img.icons8.com/android/24/000000/search.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 .search
@@ -135,10 +144,14 @@ header
 }
 
 .icon-voz
-{
+{   
     padding: 0px 8px;
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
+    background-image: url("https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 .buttons-main
